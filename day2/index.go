@@ -6,8 +6,8 @@ import (
 	"os"
 )
 
-var ascii_a = int('A')
-var ascii_x = int('X')
+var ASCII_A = int('A')
+var ASCII_X = int('X')
 
 func assert(e error) {
 	if e != nil {
@@ -24,8 +24,8 @@ func main() {
 		moves := []rune(scanner.Text())
 
 		// input:
-		a := int(moves[0]) - ascii_a
-		b := int(moves[2]) - ascii_x
+		a := int(moves[0]) - ASCII_A
+		b := int(moves[2]) - ASCII_X
 
 		// part 1:
 		switch (3 + b - a) % 3 {
