@@ -1,5 +1,4 @@
 import sys
-import re
 
 line = sys.stdin.readline().rstrip()
 
